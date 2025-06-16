@@ -1,0 +1,54 @@
+.carousel-item {
+  min-width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border: 1px solid #000;
+
+}
+
+#carousel {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+
+#first {
+    background-color: red;
+}
+
+#second {
+    background-color: blueviolet;
+}
+
+#three {
+    background-color: green;
+}
+
+#carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
